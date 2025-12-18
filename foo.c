@@ -16,6 +16,8 @@ int main(void)
 
     printf("Aufgabe 2: Christbaumschmuck");
 
+
+    printf("Nummer 1");
     int candles = 0;
     int balls = 0;
 
@@ -25,6 +27,18 @@ int main(void)
     float Gesamtkosten = 0;
 
     printf("Die Gesamtkosten für den Christbaumschmuck betragen", candles * 1,50 + balls * 4,90);
+
+    printf("Nummer 2");
+    
+    scanf(balls);
+    if (balls < 10) printf("Auf dem Baum befinden sich weniger als 10 Kerzen");
+    
+    else printf("Auf dem Baum sind 10 oder mehr Kerzen");
+
+
+
+
+
 
 
 
