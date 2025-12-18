@@ -9,6 +9,8 @@ int main(void)
     int number_biscuits = 0;
     float diameter_biscuit = 0;
     float area = 0;
+    float M_PI = 0;
+    M_PI = 3,141592;
 
     area = (pow(diameter_biscuit, 2) * M_PI) /4;
 
@@ -34,6 +36,12 @@ int main(void)
     if (balls < 10) printf("Auf dem Baum befinden sich weniger als 10 Kerzen");
     
     else printf("Auf dem Baum sind 10 oder mehr Kerzen");
+
+    printf("Nummer 3");
+
+    // Modulo = %f%%%f
+
+
 
 
 
